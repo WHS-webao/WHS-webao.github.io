@@ -2,7 +2,7 @@
 title: Multipart Parser Confusion
 description: 
 published: true
-date: 2025-07-25T19:16:26.513Z
+date: 2025-07-26T07:40:40.363Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-23T10:42:58.510Z
@@ -91,7 +91,7 @@ Content-Type: multipart/form-data; boundary=xxx
         Content-Disposition: form-data; name="test_file"; filename="test.jpg"
         Content-Type: image/jpeg
         ... the image ...
----xxx---
+--xxx--
 </code>
 </pre>
       </td>
