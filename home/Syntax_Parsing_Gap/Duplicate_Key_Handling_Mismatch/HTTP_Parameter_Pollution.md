@@ -2,7 +2,7 @@
 title: HTTP Parameter Pollution
 description: 
 published: true
-date: 2025-07-31T22:37:42.007Z
+date: 2025-07-31T22:37:45.829Z
 tags: attack success validation, data exfiltration, authentication bypass, technology‑specific parsing analysis, application logic and filter analysis, dual parameter injection, duplicate parameter injection, split‑payload concatenation, parameter tampering, data theft, parameter override, cross‑site scripting (xss), open redirect, sql injection, application behavior manipulation
 editor: markdown
 dateCreated: 2025-07-14T13:28:11.791Z
