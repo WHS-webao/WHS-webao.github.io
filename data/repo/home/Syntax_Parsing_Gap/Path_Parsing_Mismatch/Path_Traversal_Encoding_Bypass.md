@@ -2,8 +2,8 @@
 title: Path Traversal Encoding Bypass
 description: 
 published: true
-date: 2025-07-25T16:18:41.678Z
-tags: 
+date: 2025-07-31T16:21:08.988Z
+tags: attack success validation, data exfiltration, cross‑site scripting (xss), decoding level analysis, directory depth obfuscation, multi‑level encoding bypass
 editor: markdown
 dateCreated: 2025-07-23T10:46:09.630Z
 ---
@@ -61,9 +61,9 @@ dateCreated: 2025-07-23T10:46:09.630Z
 
 | 공격 기법                                                     | 예시                                              | 설명                                                                                                                                                                                     | 출처 |
 |---------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| Multi-level Encoding Bypass (WAF level < App level)           | `GET /viewpost/..%252f..%252f...`                 | WAF의 디코딩 횟수보다 더 많이 페이로드를 인코딩한다. WAF는 디코딩 후에도 `..`를 인식하지 못해 통과시키지만, 더 많이 디코딩하는 애플리케이션은 이를 `../`로 해석하여 공격이 성공한다. | [1]  |
-| Depth Obfuscation & Encoding Bypass (WAF level > App level)   | `GET /viewpost/a%252fa%252f..%252f..%252f...`     | WAF가 더 많이 디코딩하는 점을 역이용한다. WAF는 `a/a/../..`로 해석하여 깊이가 정상이므로 통과시키지만, 적게 디코딩하는 애플리케이션은 `a%2fa/../../`를 `../`로 해석하여 공격이 성공한다.        | [1]  |
-| Browser-based Path Normalization Bypass (WAF level == App level) | `GET /viewpost/%252e%252e%2f%252e%252e%2f...`   | WAF와 앱이 모두 `%2e%2e/`로 디코딩하게 만든다. WAF는 이를 안전하다고 판단하지만, 브라우저의 fetch는 `%2e%2e/`를 `../`와 동일하게 처리(경로 정규화)하여 우회가 발생한다.                  | [1]  |
+| Multi-level Encoding Bypass &lt;br&gt; (WAF level < App level)           | `GET /viewpost/..%252f..%252f...`                 | WAF의 디코딩 횟수보다 더 많이 페이로드를 인코딩한다. WAF는 디코딩 후에도 `..`를 인식하지 못해 통과시키지만, 더 많이 디코딩하는 애플리케이션은 이를 `../`로 해석하여 공격이 성공한다. | [1]  |
+| Depth Obfuscation & Encoding Bypass &lt;br&gt; (WAF level > App level)   | `GET /viewpost/a%252fa%252f..%252f..%252f...`     | WAF가 더 많이 디코딩하는 점을 역이용한다. WAF는 `a/a/../..`로 해석하여 깊이가 정상이므로 통과시키지만, 적게 디코딩하는 애플리케이션은 `a%2fa/../../`를 `../`로 해석하여 공격이 성공한다.        | [1]  |
+| Browser-based Path Normalization Bypass &lt;br&gt; (WAF level == App level) | `GET /viewpost/%252e%252e%2f%252e%252e%2f...`   | WAF와 앱이 모두 `%2e%2e/`로 디코딩하게 만든다. WAF는 이를 안전하다고 판단하지만, 브라우저의 fetch는 `%2e%2e/`를 `../`와 동일하게 처리(경로 정규화)하여 우회가 발생한다.                  | [1]  |
 
 ### Validation
 

@@ -2,8 +2,8 @@
 title: Cookieless Session Authentication Bypass
 description: 
 published: true
-date: 2025-07-25T17:02:13.596Z
-tags: 
+date: 2025-07-30T20:50:04.744Z
+tags: attack success validation, data exfiltration, cookieless session discovery, double session token injection, application pool confusion injection, ntfs ads evasion, asp.net module routing exploit, anonymous resource execution, authentication bypass
 editor: markdown
 dateCreated: 2025-07-23T10:44:10.847Z
 ---

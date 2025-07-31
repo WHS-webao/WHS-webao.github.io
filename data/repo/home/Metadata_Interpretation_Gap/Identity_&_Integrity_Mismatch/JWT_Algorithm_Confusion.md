@@ -2,8 +2,8 @@
 title: JWT Algorithm Confusion
 description: 
 published: true
-date: 2025-07-25T15:58:37.493Z
-tags: 
+date: 2025-07-30T16:57:45.470Z
+tags: http response code verification, public key retrieval, jwt algorithm confusion, public‑key hmac signature forgery, alternate token delivery, privilege escalation via jwt claims, data exfiltration via elevated privileges
 editor: markdown
 dateCreated: 2025-07-23T11:14:46.660Z
 ---

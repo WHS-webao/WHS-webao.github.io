@@ -2,8 +2,8 @@
 title: Psychic Signature Attack
 description: 
 published: true
-date: 2025-07-25T16:29:29.010Z
-tags: 
+date: 2025-07-30T17:25:52.346Z
+tags: arbitrary account takeover, vulnerable environment identification, blank signature forgery, forged jwt submission, malicious tls handshake, ecdsa verification bypass, authentication success confirmation, man‑in‑the‑middle (mitm) attack, webauthn authentication bypass, privileged data access
 editor: markdown
 dateCreated: 2025-07-23T11:15:55.723Z
 ---

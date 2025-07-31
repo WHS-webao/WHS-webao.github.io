@@ -2,8 +2,8 @@
 title: Body_Format_Confusion_Attack
 description: 
 published: true
-date: 2025-07-25T16:54:07.590Z
-tags: 
+date: 2025-07-31T15:40:46.497Z
+tags: attack success validation, content‑type interchangeability survey, parse‑log verification setup, content‑type header manipulation, body field manipulation, boundary manipulation, doctype closure confusion (xml), deliver unmodified attack payload
 editor: markdown
 dateCreated: 2025-07-22T16:56:31.928Z
 ---
@@ -17,7 +17,7 @@ dateCreated: 2025-07-22T16:56:31.928Z
 
 > 보안 정책 적용 불일치 (Security Policy Gap)  
 > → 보안 검증 로직 불일치 (Security Validation Logic Mismatch)  
-> → Body Format Confusion Attack (WAFFLED)
+> → Body Format Confusion Attack
 
 ## 절차
 

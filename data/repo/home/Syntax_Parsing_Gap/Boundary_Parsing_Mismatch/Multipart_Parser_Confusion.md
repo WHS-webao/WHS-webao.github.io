@@ -2,8 +2,8 @@
 title: Multipart Parser Confusion
 description: 
 published: true
-date: 2025-07-26T07:40:40.363Z
-tags: 
+date: 2025-07-31T16:05:40.593Z
+tags: attack success validation, data exfiltration, body field manipulation, boundary manipulation, backend parser profiling, malicious file execution
 editor: markdown
 dateCreated: 2025-07-23T10:42:58.510Z
 ---
@@ -37,10 +37,6 @@ dateCreated: 2025-07-23T10:42:58.510Z
     <tr>
       <td>Obfuscation</td>
       <td>Zero‑Width 문자, 퍼센트 인코딩(<code>%2e</code>), 널 바이트(<code>\x00</code>) 등을 섞어 요청을 난독화 해 WAF 시그니처나 로깅에서 눈에 띄지 않도록 한다.</td>
-    </tr>
-    <tr>
-      <td>Desync</td>
-      <td>준비한 요청을 전송해 필터는 “정상”이라 통과하지만, 백엔드 파서는 다르게 해석하도록 만들어 금지된 확장자 업로드·파라미터 오염 등이 일어나게 한다.</td>
     </tr>
     <tr>
       <td>Validation</td>

@@ -2,8 +2,8 @@
 title: XMPP_Stanza_Smuggling
 description: 
 published: true
-date: 2025-07-25T18:03:02.731Z
-tags: 
+date: 2025-07-31T13:06:34.787Z
+tags: parser difference fingerprinting, processing instruction obfuscation, embedded stanza fragment injection, utf‑8 encoding mismatch, parsing discrepancy verification, connection redirect (mitm), custom extension abuse, token beacon exfiltration
 editor: markdown
 dateCreated: 2025-07-20T11:12:05.222Z
 ---

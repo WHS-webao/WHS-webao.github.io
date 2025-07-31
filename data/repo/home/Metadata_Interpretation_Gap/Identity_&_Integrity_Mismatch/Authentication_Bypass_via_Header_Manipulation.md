@@ -2,8 +2,8 @@
 title: Authentication Bypass via Header Manipulation
 description: 
 published: true
-date: 2025-07-25T15:51:07.615Z
-tags: 
+date: 2025-07-30T16:49:12.841Z
+tags: exchange version check, securitytoken cookie injection, canary token leakage, http response code verification, inbox forwarding rule creation, real‑time email harvesting, inbox rule removal
 editor: markdown
 dateCreated: 2025-07-23T11:14:19.304Z
 ---
